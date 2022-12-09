@@ -26,16 +26,16 @@
             android:id="@+id/textTitle"/>
 
         <TextView
+            android:id="@+id/textViewNotesShowActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Pham Duy Khang"
-            android:textColor="@color/black"
-            android:fontFamily="monospace"
             android:layout_below="@+id/textTitle"
-            android:gravity="center"
             android:layout_marginTop="15dp"
-            android:id="@+id/textViewNotesShowActivity"/>
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Hello world!"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="match_parent"
